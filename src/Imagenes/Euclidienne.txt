@@ -1,0 +1,284 @@
+nouveau node idCont : 0
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 0
+videX : 1
+videY : 0
+4 1 3 
+9 2 5 
+7 8 6 
+inserer Fin : 
+node g : 0
+0
+inserer Fin : 
+node g : 0
+0
+bouger Vide Haut nouveau node idCont : 0
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 1
+videX : 0
+videY : 0
+9 1 3 
+4 2 5 
+7 8 6 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 1
+1
+bouger Vide Droit nouveau node idCont : 1
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 1
+videX : 1
+videY : 1
+4 1 3 
+2 9 5 
+7 8 6 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 1
+2
+bouger Vide Bas nouveau node idCont : 2
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 1
+videX : 2
+videY : 0
+4 1 3 
+7 2 5 
+9 8 6 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 1
+3
+listeOuvert : 
+ g : 1, f : 6 g : 1, f : 7 g : 1, f : 8
+listeFerme : 
+ g : 0, f : 6
+inserer Fin : 
+node g : 1
+1
+bouger Vide Droit nouveau node idCont : 3
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 2
+videX : 0
+videY : 1
+1 9 3 
+4 2 5 
+7 8 6 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 2
+4
+bouger Vide Bas nouveau node idCont : 4
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 2
+videX : 1
+videY : 0
+4 1 3 
+9 2 5 
+7 8 6 
+checkBranchNodeInLists : 
+listeOuvert : 
+ g : 1, f : 7 g : 1, f : 8 g : 2, f : 6
+listeFerme : 
+ g : 0, f : 6 g : 1, f : 6
+inserer Fin : 
+node g : 2
+4
+bouger Vide Gouche nouveau node idCont : 5
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 3
+videX : 0
+videY : 0
+9 1 3 
+4 2 5 
+7 8 6 
+checkBranchNodeInLists : 
+bouger Vide Bas nouveau node idCont : 6
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 3
+videX : 1
+videY : 1
+1 2 3 
+4 9 5 
+7 8 6 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 3
+7
+bouger Vide Droit nouveau node idCont : 7
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 3
+videX : 0
+videY : 2
+1 3 9 
+4 2 5 
+7 8 6 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 3
+8
+listeOuvert : 
+ g : 1, f : 7 g : 1, f : 8 g : 3, f : 6 g : 3, f : 8
+listeFerme : 
+ g : 0, f : 6 g : 1, f : 6 g : 2, f : 6
+inserer Fin : 
+node g : 3
+7
+bouger Vide Haut nouveau node idCont : 8
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 4
+videX : 0
+videY : 1
+1 9 3 
+4 2 5 
+7 8 6 
+checkBranchNodeInLists : 
+bouger Vide Droit nouveau node idCont : 9
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 4
+videX : 1
+videY : 2
+1 2 3 
+4 5 9 
+7 8 6 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 4
+10
+bouger Vide Bas nouveau node idCont : 10
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 4
+videX : 2
+videY : 1
+1 2 3 
+4 8 5 
+7 9 6 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 4
+11
+bouger Vide Gouche nouveau node idCont : 11
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 4
+videX : 1
+videY : 0
+1 2 3 
+9 4 5 
+7 8 6 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 4
+12
+listeOuvert : 
+ g : 1, f : 7 g : 1, f : 8 g : 3, f : 8 g : 4, f : 6 g : 4, f : 8 g : 4, f : 8
+listeFerme : 
+ g : 0, f : 6 g : 1, f : 6 g : 2, f : 6 g : 3, f : 6
+inserer Fin : 
+node g : 4
+10
+bouger Vide Haut nouveau node idCont : 12
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 5
+videX : 0
+videY : 2
+1 2 9 
+4 5 3 
+7 8 6 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 5
+13
+bouger Vide Gouche nouveau node idCont : 13
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 5
+videX : 1
+videY : 1
+1 2 3 
+4 9 5 
+7 8 6 
+checkBranchNodeInLists : 
+bouger Vide Bas nouveau node idCont : 14
+calcularF_profundidad : 
+id : 0
+parentID : 0
+h : 0
+g : 5
+videX : 2
+videY : 2
+1 2 3 
+4 5 6 
+7 8 9 
+checkBranchNodeInLists : 
+inserer Fin : 
+node g : 5
+15
+listeOuvert : 
+ g : 1, f : 7 g : 1, f : 8 g : 3, f : 8 g : 4, f : 8 g : 4, f : 8 g : 5, f : 8 g : 5, f : 5
+listeFerme : 
+ g : 0, f : 6 g : 1, f : 6 g : 2, f : 6 g : 3, f : 6 g : 4, f : 6
+inserer Fin : 
+node g : 5
+15
+cheminFinal : 
+inserer Debut : 
+node g : 5
+15
+inserer Debut : 
+node g : 4
+10
+inserer Debut : 
+node g : 3
+7
+inserer Debut : 
+node g : 2
+4
+inserer Debut : 
+node g : 1
+1
+inserer Debut : 
+node g : 0
+0
